@@ -19,20 +19,19 @@ pip install --ignore-installed --upgrade "Download URL" --user
 
 ---
 
-# Please Read
+If you find this project useful, please consider donating to the [Rotary
+Ambala Cancer & General Hospital][2]. It is a donation supported cancer
+hospital in my mother's hometown and provides extremely affordable
+services to the local population.
 
-If you find this project useful, please consider donating to the [Rotary Ambala
-Cancer & General Hospital][2]. It is a donation supported cancer hospital in
-my mother's hometown and provides extremely affordable services to the local
-population.
-
-The donation process on its page is suboptimal, if you prefer not going through
-the trouble, consider using the "Sponsor" button at the top and I'll make sure
-your donations get to the hospital. Thanks!
+The donation process on its page is suboptimal, if you prefer not going
+through the trouble, consider using the "Sponsor" button at the top and
+I'll make sure your donations get to the hospital. Thanks!
 
 ---
 
-**All Builds**
+<details>
+<summary>Expand for older builds</summary>
 
 | TF     | HW  | OS                | GCC                | Python   | Supports                                            |                                                                                                                                                                                |
 |--------|-----|-------------------|--------------------|----------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -73,6 +72,7 @@ your donations get to the hospital. Thanks!
 | 1.13.1 | CPU | MacOS Mojave      | clang-1001.0.46.4  | 3.7.2    | FMA, AVX, AVX2, SSE4.1, SSE4.2                      | [Download](https://github.com/lakshayg/tensorflow-build-archived/releases/download/tf1.13.1-ubuntu16.04-py3/tensorflow-1.13.1-cp37-cp37m-macosx_10_9_x86_64.whl)                        |
 | 1.14.1 | CPU | Ubuntu 18.04      | 7.4                | 3.7.3    | FMA, AVX2, AVX512F                                  | [Download](https://github.com/lakshayg/tensorflow-build-archived/releases/download/tf-1.14-ubuntu18.04-py3.7/tensorflow-1.14.1-cp37-cp37m-linux_x86_64.whl)                             |
 | 1.14.1 | CPU | macOS Mojave      | clang-1001.0.46.4  | 3.7.4    | FMA, AVX2, AVX512F                                  | [Download](https://github.com/lakshayg/tensorflow-build-archived/releases/download/tf-1.14-ubuntu18.04-py3.7/tensorflow-1.14.1-cp37-cp37m-macosx_10_9_x86_64.whl)                       |
+</details>
 
 **Visit [tensorflow.org][1] for instructions on building tensorflow for your machine.**
 
