@@ -25,8 +25,11 @@ hospital in my mother's hometown and provides extremely affordable
 services to the local population.
 
 The donation process on its page is suboptimal, if you prefer not going
-through the trouble, consider using the "Sponsor" button at the top and
-I'll make sure your donations get to the hospital. Thanks!
+through the trouble, consider using the "Sponsor" button at the top or
+this Venmo QR code for [@lakshayg on Venmo](https://venmo.com/lakshayg)
+and I'll make sure your donations get to the hospital. Thanks!
+
+<img title="@lakshayg on Venmo" src="https://user-images.githubusercontent.com/7976315/86985046-0c362280-c145-11ea-9eda-cf80bfe6dbe5.JPG" width=250/>
 
 ---
 
