@@ -17,7 +17,7 @@ pip install --ignore-installed --upgrade "Download URL" --user
 | 2.1.0  | CPU | Ubuntu 16.04  | 5.4.0              | 3.5.2    | FMA, AVX, AVX2, SSE4.1, SSE4.2  | [Download](https://github.com/lakshayg/tensorflow-build-archived/releases/download/tf-2.1.0-py35-ubuntu1604/tensorflow-2.1.0-cp35-cp35m-linux_x86_64.whl)     |
 | 1.14.1\* | CPU | macOS Mojave  | clang-1001.0.46.4  | 3.7.4    | FMA, AVX, AVX2, SSE4.1, SSE4.2  | [Download](https://github.com/lakshayg/tensorflow-build-archived/releases/download/tf1.14.1-mojave-py3.7/tensorflow-1.14.1-cp37-cp37m-macosx_10_9_x86_64.whl) |
 
-\* I have't been able to compile a later version of TF on macOS due to https://github.com/protocolbuffers/protobuf/issues/7519#issuecomment-710651699
+\* I have't been able to compile a later version of TF on macOS due to [this protobuf issue](https://github.com/protocolbuffers/protobuf/issues/7519#issuecomment-710651699)
 
 ---
 
