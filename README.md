@@ -11,13 +11,11 @@ pip install --ignore-installed --upgrade "Download URL" --user
 
 **Latest Builds**
 
-| TF     | HW  | OS            | GCC                | Python   | Supports                        |                                                                                                                                                               |
-|--------|-----|---------------|--------------------|----------|---------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 2.2.0  | CPU | Ubuntu 18.04  | 7.5.0              | 3.7.7    | FMA, AVX, AVX2, SSE4.1, SSE4.2  | [Download](https://github.com/lakshayg/tensorflow-build/releases/download/tf2.2.0-py3.7-ubuntu18.04/tensorflow-2.2.0-cp37-cp37m-linux_x86_64.whl)             |
-| 2.1.0  | CPU | Ubuntu 16.04  | 5.4.0              | 3.5.2    | FMA, AVX, AVX2, SSE4.1, SSE4.2  | [Download](https://github.com/lakshayg/tensorflow-build-archived/releases/download/tf-2.1.0-py35-ubuntu1604/tensorflow-2.1.0-cp35-cp35m-linux_x86_64.whl)     |
-| 1.14.1\* | CPU | macOS Mojave  | clang-1001.0.46.4  | 3.7.4    | FMA, AVX, AVX2, SSE4.1, SSE4.2  | [Download](https://github.com/lakshayg/tensorflow-build-archived/releases/download/tf1.14.1-mojave-py3.7/tensorflow-1.14.1-cp37-cp37m-macosx_10_9_x86_64.whl) |
-
-\* I have't been able to compile a later version of TF on macOS due to [this protobuf issue](https://github.com/protocolbuffers/protobuf/issues/7519#issuecomment-710651699)
+| TF     | HW  | OS             | GCC                | Python   | Supports                        |                                                                                                                                                           |
+|--------|-----|----------------|--------------------|----------|---------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 2.2.1  | CPU | macOS Catalina | clang-1200.0.26.2  | 3.8.6    | FMA, AVX, AVX2, SSE4.1, SSE4.2  | [Download](https://github.com/lakshayg/tensorflow-build/releases/download/tf2.2.1-py3.8-macos/tensorflow-2.2.1-cp38-cp38-macosx_10_15_x86_64.whl)         |
+| 2.2.0  | CPU | Ubuntu 18.04   | 7.5.0              | 3.7.7    | FMA, AVX, AVX2, SSE4.1, SSE4.2  | [Download](https://github.com/lakshayg/tensorflow-build/releases/download/tf2.2.0-py3.7-ubuntu18.04/tensorflow-2.2.0-cp37-cp37m-linux_x86_64.whl)         |
+| 2.1.0  | CPU | Ubuntu 16.04   | 5.4.0              | 3.5.2    | FMA, AVX, AVX2, SSE4.1, SSE4.2  | [Download](https://github.com/lakshayg/tensorflow-build-archived/releases/download/tf-2.1.0-py35-ubuntu1604/tensorflow-2.1.0-cp35-cp35m-linux_x86_64.whl) |
 
 ---
 
@@ -45,6 +43,7 @@ and I'll make sure your donations get to the hospital. Thanks!
 
 | TF     | HW  | OS                | GCC                | Python   | Supports                                            |                                                                                                                                                                                |
 |--------|-----|-------------------|--------------------|----------|-----------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| 1.14.1 | CPU | macOS Mojave      | clang-1001.0.46.4  | 3.7.4    | FMA, AVX, AVX2, SSE4.1, SSE4.2                      | [Download](https://github.com/lakshayg/tensorflow-build-archived/releases/download/tf1.14.1-mojave-py3.7/tensorflow-1.14.1-cp37-cp37m-macosx_10_9_x86_64.whl) |
 | 1.14.1 | CPU | macOS Mojave      | clang-1001.0.46.4  | 3.7.4    | FMA, AVX2, AVX512F                                  | [Download](https://github.com/lakshayg/tensorflow-build-archived/releases/download/tf-1.14-ubuntu18.04-py3.7/tensorflow-1.14.1-cp37-cp37m-macosx_10_9_x86_64.whl)                       |
 | 1.14.1 | CPU | Ubuntu 18.04      | 7.4                | 3.7.3    | FMA, AVX2, AVX512F                                  | [Download](https://github.com/lakshayg/tensorflow-build-archived/releases/download/tf-1.14-ubuntu18.04-py3.7/tensorflow-1.14.1-cp37-cp37m-linux_x86_64.whl)                             |
 | 1.13.1 | CPU | MacOS Mojave      | clang-1001.0.46.4  | 3.7.2    | FMA, AVX, AVX2, SSE4.1, SSE4.2                      | [Download](https://github.com/lakshayg/tensorflow-build-archived/releases/download/tf1.13.1-ubuntu16.04-py3/tensorflow-1.13.1-cp37-cp37m-macosx_10_9_x86_64.whl)                        |
