@@ -9,6 +9,9 @@ You can also install directly from github using
 pip install --ignore-installed --upgrade "Download URL" --user
 ```
 
+All the binaries were compiled by passing `--config=opt` to bazel and setting
+`-O2 -Wno-sign-compare` in addition to the feature flags in configure script.
+
 **Latest Builds**
 
 | TF     | HW  | OS             | GCC                | Python   | Supports                        |                                                                                                                                                           |
