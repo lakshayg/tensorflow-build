@@ -20,6 +20,18 @@ All the binaries were compiled by passing `--config=opt` to bazel and setting
 | 2.2.0  | CPU | Ubuntu 18.04   | 7.5.0              | 3.7.7    | FMA, AVX, AVX2, SSE4.1, SSE4.2  | [Download](https://github.com/lakshayg/tensorflow-build/releases/download/tf2.2.0-py3.7-ubuntu18.04/tensorflow-2.2.0-cp37-cp37m-linux_x86_64.whl)         |
 | 2.1.0  | CPU | Ubuntu 16.04   | 5.4.0              | 3.5.2    | FMA, AVX, AVX2, SSE4.1, SSE4.2  | [Download](https://github.com/lakshayg/tensorflow-build-archived/releases/download/tf-2.1.0-py35-ubuntu1604/tensorflow-2.1.0-cp35-cp35m-linux_x86_64.whl) |
 
+**What flags are supported by my CPU?**
+
+To check the instruction sets supported by your CPU, check the output of the following commands:
+
+```
+# macOS
+sysctl -a | grep "machdep.cpu.*features:"
+
+# Linux
+cat /proc/cpuinfo | grep flags
+```
+
 ---
 
 If you find this project useful, _consider donating whatever amount you
