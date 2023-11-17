@@ -5,7 +5,7 @@ to your version of python and gcc and run the following command.
 pip install --ignore-installed --upgrade /path/to/binary.whl --user
 ```
 You can also install directly from github using
-```
+```bash
 pip install --ignore-installed --upgrade "Download URL" --user
 ```
 
@@ -25,7 +25,7 @@ All the binaries were compiled by passing `--config=opt` to bazel and setting
 
 To check the instruction sets supported by your CPU, check the output of the following commands:
 
-```
+```bash
 # macOS
 sysctl -a | grep "machdep.cpu.*features:"
 
